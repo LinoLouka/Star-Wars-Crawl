@@ -1,0 +1,7 @@
+body{
+    background-image: url(./asset/background_star_wars.png);
+}
+.text {
+    color: yellow;
+    text-align: center;
+}
