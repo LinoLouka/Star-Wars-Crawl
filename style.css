@@ -1,7 +1,35 @@
 body{
     background-image: url(./asset/background_star_wars.png);
+    overflow: visible;
+    font-family: 'Roboto';
+    margin: 60% 0 0 0;
+    width: 100%;
+    height: 100%;
+}
+
+.contenu{
+    display: flex;
+    height: 100%;
+    width: 60%;
+    margin: 0 auto;
+    perspective: 450px;
 }
 .text {
-    color: yellow;
+    color: #ffc909;
+    font-size: 3vw;
+    line-height: 1.5em;
+    font-weight: bold;
+    text-align: justify;
+    position: relative;
+    animation: scroll 60s linear forwards;
+    transform: translateZ(-2500px) rotateX(20deg);
+}
+
+h1, h2{
     text-align: center;
+}
+
+@keyframes scroll {
+    from{ top: 0; transform: translateZ(0) rotateX(10deg);}
+    to{ top: -7500px; transform: translateZ(-2500px) rotateX(21deg);}
 }
