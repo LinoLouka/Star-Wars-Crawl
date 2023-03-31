@@ -1,3 +1,4 @@
+
 @font-face {
     font-family: jedi;
     src: url(./asset/font/Starjedi.ttf);
@@ -8,19 +9,37 @@ body{
     background-image: url(./asset/background_star_wars.png);
     overflow: visible;
     font-family: jedi;
+    overflow: hidden;
 }
 
 .contenu{
-    margin-left: 40%;
-    margin-right: 40%;
-    transform: rotate3d(1, 0, 0, 40deg);
+    transform-origin: 40% 30%;
+    transform: perspective(750px) rotateX(40deg);
+
+    width: 50%;
+    margin: auto;
+
 }
 .text {
+    align-self: stretch;
     color: #ffc909;
     font-weight: bold;
     text-align: justify;
+    animation: primary 120s linear;
+
 }
 
 h1, h2{
     text-align: center;
+}
+
+@keyframes primary {
+    
+    0% {
+        transform: translateY(70%);
+    }
+    100% { 
+        transform: translateY(-200%);
+    }
+    
 }
