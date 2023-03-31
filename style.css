@@ -1,4 +1,3 @@
-
 @font-face {
     font-family: jedi;
     src: url(./asset/font/Starjedi.ttf);
@@ -6,14 +5,14 @@
   
 
 body{
-    background-image: url(./asset/background_star_wars.png);
+    background-image: url(./asset/bg2.webp);
     overflow: visible;
     font-family: jedi;
     overflow: hidden;
 }
 
 .contenu{
-    transform-origin: 40% 30%;
+    transform-origin: 40% 20%;
     transform: perspective(750px) rotateX(40deg);
 
     width: 50%;
@@ -25,7 +24,7 @@ body{
     color: #ffc909;
     font-weight: bold;
     text-align: justify;
-    animation: primary 120s linear;
+    animation: primary 30s linear;
 
 }
 
@@ -41,5 +40,4 @@ h1, h2{
     100% { 
         transform: translateY(-200%);
     }
-    
 }
