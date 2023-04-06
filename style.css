@@ -12,8 +12,8 @@ body{
 }
 
 .contenu{
-    transform-origin: 40% 20%;
-    transform: perspective(750px) rotateX(40deg);
+    transform-origin: 45% 20%;
+    transform: perspective(750px) rotateX(60deg);
 
     width: 50%;
     margin: auto;
@@ -24,7 +24,7 @@ body{
     color: #ffc909;
     font-weight: bold;
     text-align: justify;
-    animation: primary 30s linear;
+    animation: primary 70s linear;
 
 }
 
@@ -35,7 +35,7 @@ h1, h2{
 @keyframes primary {
     
     0% {
-        transform: translateY(70%);
+        transform: translateY(95%);
     }
     100% { 
         transform: translateY(-200%);
