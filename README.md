@@ -8,7 +8,6 @@ Ever seen the Star Wars intro? Well, you’re gonna have to make one in groups o
     <img src="https://skillicons.dev/icons?i=html,css" />
   </a>
 </p>
-## Authors
 
 - [@L0ukaramel](https://github.com/LinoLouka)
 
